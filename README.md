@@ -55,9 +55,9 @@ This repository contains materials for a presentation that delves into the relat
 
    # Create - Inserting multiple documents
    collection.insert_many([
-    {'name': 'John', 'age': 30},
-    {'name': 'Alice', 'age': 25},
-    {'name': 'Bob', 'age': 35}
+    {'name': 'Imad', 'age': 19},
+    {'name': 'Najam', 'age': 25},
+    {'name': 'junior', 'age': 3}
    ])
 
      # Read - Find documents
@@ -66,7 +66,7 @@ This repository contains materials for a presentation that delves into the relat
     print(result)
 
    # Update - Update a document
-   collection.update_one({'name': 'John'}, {'$set': {'age': 32}})
+   collection.update_one({'name': 'Najam'}, {'$set': {'age': 32}})
 
 # Delete - Delete a document
 collection.delete_one({'name': 'Alice'})
