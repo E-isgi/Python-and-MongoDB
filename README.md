@@ -1,6 +1,6 @@
 # Python-and-MongoDB
 <p align="center">
-  <img src="https://i.pinimg.com/564x/13/7e/0b/137e0b21ab37a59f54cb6e5d5fcf1104.jpg" alt="Python and MongoDB" width="400">
+  <img src="https://i.pinimg.com/564x/13/7e/0b/137e0b21ab37a59f54cb6e5d5fcf1104.jpg" alt="Python and MongoDB" width="800">
 </p>
 ## Exploring the Relationship between Python and MongoDB
 
