@@ -48,3 +48,26 @@ This repository contains materials for a presentation that delves into the relat
    
    # Print result
    print(result)
+
+
+
+   # 5. CRUD Operations with Python and MongoDB:
+
+   # Create - Inserting multiple documents
+   collection.insert_many([
+    {'name': 'John', 'age': 30},
+    {'name': 'Alice', 'age': 25},
+    {'name': 'Bob', 'age': 35}
+   ])
+
+     # Read - Find documents
+    results = collection.find({'age': {'$gte': 30}})
+   for result in results:
+    print(result)
+
+   # Update - Update a document
+   collection.update_one({'name': 'John'}, {'$set': {'age': 32}})
+
+# Delete - Delete a document
+collection.delete_one({'name': 'Alice'})
+
